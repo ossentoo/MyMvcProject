@@ -1,0 +1,14 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+pipelines/iac/.terraform/*
+pipelines/iac/.terraform.lock.hcl
+.DS_Store
+*/*/.DS_Store
+**/*/.DS_Store
+/src/.vs
+**/efbundle
+/src/tools/.vs/*
+**/appsettings.Development.json

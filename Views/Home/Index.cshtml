@@ -1,0 +1,12 @@
+﻿<html>
+<head>
+    <title>File Upload with HTMX</title>
+</head>
+<body>
+    <form hx-post="/Home/Upload" hx-target="#upload-result" enctype="multipart/form-data">
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <button type="submit">Upload</button>
+    </form>
+    <div id="upload-result"></div>
+</body>
+</html>
